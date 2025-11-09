@@ -19,10 +19,7 @@ Aby skompilować program, w terminalu uruchom:
 ```bash
 clang -Wall getchar.c
 ````
-```
 
-
-```
 
 ---
 ## Uruchomienie programu
