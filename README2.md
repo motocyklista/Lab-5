@@ -19,6 +19,15 @@ Aby skompilować program, w terminalu uruchom:
 ```bash
 clang -Wall cezar.c
 ````
+```
+warning: 'scanf' is deprecated: This function or variable may be unsafe. Consider using scanf_s instead.
+```
+
+Jest to normalne w środowisku Visual Studio. Możesz je zignorować lub użyć `scanf_s`. Aby wyłączyć ostrzeżenie, dodaj na początku pliku:
+
+```c
+#define _CRT_SECURE_NO_WARNINGS
+```
 
 
 ---
