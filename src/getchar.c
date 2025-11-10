@@ -21,7 +21,7 @@ int main() {
 
   printf("Wynik: %s, DUZE: %d, MALE: %d, CYFRY: %d, INNE: %d\n", tekst, duze, male, cyfry, inne);
     if (znak == EOF) {
-        printf("\nKoniec pliku (EOF) został osiągnięty.\n");
+        printf("\nKoniec pliku (EOF) zostal osiagniety.\n");
     }
 
     return 0;
