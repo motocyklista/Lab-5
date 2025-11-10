@@ -8,7 +8,7 @@ int main() {
 
     printf("Wpisz tekst (zakoncz enterem)\n");
 
-    while ((znak = getchar()) != '\n' && znak != EOF && i < sizeof(tekst) - 1) {
+    while ((znak = getchar()) != '\n' && znak != EOF && i < 199) {
         tekst[i++] = (char)znak;
 
         if (znak >= 'A' && znak <= 'Z') duze++;
